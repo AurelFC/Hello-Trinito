@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="UTF-8"/>
+        <title>Connexion</title>
+		<style type="text/css">
+
+			body{
+				font-family: Arial sans-serif;
+				background-color: #ededed;
+			}
+			
+
+			
+			div{
+				
+				width: 300px;
+				background-color: #fff;
+				padding: 15px;
+				margin: 10px;
+				border-radius: 3px;
+				border: 5px solid #d8d8d8;
+				box-shadow: 0px 0px 22px 0px #cccccc;
+				margin : auto;
+				margin-top: 15%;
+			}
+			footer{
+				display: block;
+				text-align: center;
+			}
+			.boutonvalider{
+				background-color: #ededed;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+
+	<div class="jumbotron text-center">
+ 		<p>Bienvenue sur l'extranet de la mairie de Saint Jean d'Angély</p> 
+	</div>
+  
+	<div>
+		<p><strong>Veuillez vous authentifier!</strong></p>
+
+        <form action="PDOexo3ajout.php" method="post">
+
+            
+           		<fieldset>
+           			<label for="login">login :</label>
+            		<input type="login" name="login" maxlength="25">
+            	</fieldset>
+            		<br/>
+            	<fieldset>
+            		<label for="password">password :</label>
+            		<input type="password" name="mot_de_passe" maxlength="10" />
+            	</fieldset>
+            		<br/>
+            		<p style="text-align :center;"><input type="submit" class="boutonvalider" value="Valider" /></p>
+    </div>        		
+            
+
+ 	</body>
+ 	<footer>Copyright  Mairie de Saint Jean d'Angély 2017 ©</footer>
+
+
+</html>
