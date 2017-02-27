@@ -1,3 +1,5 @@
 # Hello-Trinito
 Les debuts
-Creation de la page de connexion sur v0
+27/02:
+Creation de la page de connexion html/css v0
+
